@@ -1,0 +1,2 @@
+Il reindirizzamento è stato inpostato in base alla directory in cui ho crato il file
+per far funzionare il gioco cambia lindirizzo della directory
