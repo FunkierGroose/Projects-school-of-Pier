@@ -1,0 +1,76 @@
+*{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #fde3a7;
+    text-align: center;
+    color: slategrey;   
+    margin: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 0%;
+}
+
+h1{
+    background-image: linear-gradient(120deg, rgb(49, 243, 123), rgb(218, 210, 194));
+    border-radius: 60px 60px 20px 20px;
+    border-style: hidden;
+    padding: 5%;
+    margin-top: 12%;
+    transition: 0.50s;
+}
+
+
+form{
+    background-image: linear-gradient(120deg, rgb(49, 243, 123), rgb(218, 210, 194));
+    border-radius: 20px 20px 60px 60px;
+    border-style: hidden;
+    padding: 4%;
+    margin-top: 7%;
+    transition: 0.50s;
+
+}
+b{
+    background-color: transparent;
+    margin-top: 10%;
+    
+}
+
+input[type=submit]{
+    background-color: transparent;
+    border-radius: 20px 20px 20px 20px;
+    background-color: transparent;
+    padding: 3%;
+    color: slategrey;
+    cursor: pointer;
+    border-color: snow;
+}
+input[type=text]:focus{
+    width: 120px;
+}
+.boh{
+    background-color: transparent;
+    border-radius: 60px 60px 20px 20px;
+    padding: 3%;
+    color:slategray;
+    border-color: snow;
+    transition: 0.25s;
+    animation: ease-in;
+}
+.boch{
+    background-color: transparent;
+    border-radius: 20px 20px 60px 60px;
+    padding: 3%;
+    color: slategray;
+    border-color: snow;
+    transition: 0.25s;
+    animation: ease-in;
+}
+select{
+    background-color: transparent;
+    border-radius: 20px 20px 20px 20px;
+    background-color: transparent;
+    padding: 3%;
+    color: slategrey;
+    cursor: pointer;
+    border-color: snow;
+}
+::placeholder{color: honeydew; opacity: 6;}

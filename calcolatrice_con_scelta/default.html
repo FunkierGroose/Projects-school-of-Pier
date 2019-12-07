@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Esempio scelta</title>
+        <link rel="stylesheet" href="stile.css">
+    </head>
+    <body>
+        <h1>Calcolatrice by Pier</h1>
+        <br>
+        <h3>Opzione a scelta per operatore</h3>
+        <div class="box">
+                <form action="scriptScelta.php" method="POST">
+
+                        <input type="text" name="n1" class=" boh" placeholder="inserisci">    
+                        <br><br>
+                        <input type="text" name="n2" class="boch" placeholder="inserisci">
+                        <br><br>
+                        <b>A te la scelta bomber</b>
+                        <br><br>
+                        <select name="scelta">                                       <!--menu A tendina-->
+                            <option value="add">addizione</option>
+                            <option value="diff">differenza</option>
+                            <option value="prod">prodotto</option>
+                        </select>
+                        <br><br>
+                        <input type="submit" value="Risultato">
+
+                </form>
+        </div>
+    </body>
+</html>
