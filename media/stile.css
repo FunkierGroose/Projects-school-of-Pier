@@ -1,0 +1,132 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background-size: cover;
+    color: #68453e;
+    font-weight: bold;
+}
+.background-wrap {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+#video-bg-elem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+h1{
+    font-size: 45px;
+    top: 10%;
+    left: 15%;
+    position: absolute;
+    transition: 0.5s;
+}
+h2{
+    font-size: 25px;
+    top: 19%;
+    left: 11%;
+    position: absolute;
+    transition: 0.5s;
+}
+img{
+    top: 13%;
+    left: 30%;
+    color: #487eb0;
+    position: absolute;
+}
+table{
+    
+    background: #6a81c0;
+    padding: 3%;
+    top: 32%;
+    opacity: 0.9;
+    left: 13%;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 5px 25px 25px 25px;
+    transition: 0.5s;
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.39);
+    
+}
+.ris{
+    top: 32%;
+    left: 50%;
+    position: absolute;
+    font-weight: bold;
+    background: #487eb0;
+    opacity: 0.9;
+    transition: 0.5s;
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.39);
+}
+.media{
+    top: 82%;
+    left: 50%;
+    position: absolute;
+    font-size: 24px;
+    background: #487eb0;
+    padding: 1%;
+    opacity: 0.9;
+    border-radius: 5px 25px 25px 25px;
+    transition: 0.5s;
+}
+.tit{
+    font-size: 25px;
+    top: 19%;
+    left: 50%;
+    position: absolute;
+    transition: 0.5s;
+}
+tr, td{
+    padding: 3%;
+    opacity: 1;
+    transition: 0.5s;
+}
+.insuff{
+    color: crimson;
+    opacity: 1;
+    transition: 0.5s;
+}
+#tendine{
+    cursor: pointer;
+    border-top: 2px solid;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-color: #e0d3d0;
+    background: transparent;
+    color: #e0d3d0;
+    padding: 1%;
+    opacity: 1;
+    transition: 0.5s;
+}
+input[type=submit]{
+    border-top: none;
+    width: 250px;
+    border-bottom: 4px solid;
+    border-radius: 2px;
+    border-right: none;
+    border-left: none;
+    border-color: #68453e;
+    background: transparent;
+    color: #68453e;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 1%;
+    position: absolute;
+    top: 85%;
+    text-align: center;
+    cursor: pointer;
+    left: 15%;
+    transition: 0.5s;
+}
+input[type=submit]:hover{
+    width: 150px;
+}
