@@ -1,0 +1,107 @@
+*{
+    
+    background: url(snow-winter-car-night-nature-imac-27.jpg);
+    
+    font-family: 'Alata', sans-serif;
+    color: white;
+}
+/*
+img{
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+*/
+h1{
+    overflow: hidden;
+    position: absolute;
+    top: 23%;
+    left: 27%;
+    background: none;
+}
+h3{
+    overflow: hidden;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    background: none;
+}
+input[type=text]{
+    overflow: hidden;
+    position: absolute;
+    top: 42%;
+    left: 43%;
+    background: none;
+    outline: none;
+    padding: 0.4%;
+    border-radius: 5px;
+    border: orchid 2px solid;
+}
+::placeholder{text-align: center; color: white;}
+select{
+    overflow: hidden;
+    position: absolute;
+    top: 48%;
+    left: 44.3%;
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    border: orchid 2px solid;
+    background-color: orchid;
+}
+input[type=submit]:hover{
+    background-color: purple;
+    border-color: purple;
+}
+input[type=submit]{
+    overflow: hidden;
+    position: absolute;
+    top: 53%;
+    left: 45.5%;
+    background: none;
+    background-color: orchid;
+    cursor: pointer;
+    width: 100px;
+    outline: none;
+    border-radius: 5px;
+    border: orchid 2px solid;
+    transition: 1s;
+}
+.te{
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    background: none;
+
+}
+.testo1{
+    overflow: hidden;
+    position: absolute;
+    top: 42%;
+    left: 27%;
+    background: none;
+}
+.testo2{
+    overflow: hidden;
+    position: absolute;
+    top: 44%;
+    left: 27%;
+    background: none;
+}
+.ris1{
+    
+    position: absolute;
+    top: 44%;
+    left: 60%;
+    background: none;
+}
+.ris2{
+    position: absolute;
+    top: 44%;
+    left: 60%;
+    background: none;
+}
