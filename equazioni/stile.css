@@ -1,0 +1,133 @@
+html{
+    padding: 0;
+    margin: 0;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.50s;
+}
+.background-wrap {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+#video-bg-elem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+h1{
+    top: 5%;
+    left: 20%;
+    position: relative;
+    transition: 0.50s;
+}
+h3{
+    top: 10%;
+    left: 13%;
+    font-size: 22px;
+    position: absolute;
+    transition: 0.50s;
+}
+form{
+    top: 23%;
+    left: 11%;
+    padding-left: 2%;
+    position: absolute;
+    transition: 0.50s;
+    
+   
+}
+
+p{
+    font-weight: bold;
+    font-size: 22px;
+    position: fixed;
+    padding: 1%;
+}
+/*
+input[type=text]{
+    border-radius: 15px;
+    outline: none;
+    transition: 1s;
+    
+    border:3px solid lightslategray;
+    background: none;
+    padding: 10px 6px;
+}
+*/
+.a, .b, .c{
+    background: none;
+  border:none;
+  
+  border-bottom: 3px solid;
+  color: white;
+  padding-bottom: 5%;
+  font-size: 14px;
+  margin-bottom: 40px;
+  transition: 0.50s;
+  position: relative;
+  top: 50%;
+  left: 130%;
+}
+input[type=submit]{
+    background: none;
+    color: #576574;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    top: 98%;
+    left: 16%;
+    position: absolute;
+    transition: 0.50s;
+}
+.a{
+    
+    float: left;
+    width: 200px;
+}
+.b{
+    
+    float: left;
+    width: 200px;
+}
+.c{
+    
+    float: left;
+    width: 200px;
+}
+input[type=text]:focus{
+    width: 90px;
+}
+input[type=submit]:hover{
+    background-color: #e1b12c;
+    color: #273c75;
+}
+::placeholder{color: linen; text-align: center;}
+
+.ris{
+    top: 30%;
+    left: 68%;
+    position: absolute;
+    transition: 0.50s;
+    padding: 1%;
+
+}
+
+.tit{
+    top: 23%;
+    left: 70%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+}
