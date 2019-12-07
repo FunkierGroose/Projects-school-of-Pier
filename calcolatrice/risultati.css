@@ -1,0 +1,24 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    background-color: lightslategray;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    color: antiquewhite;   
+    margin: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+}
+.box-scelta{
+    background-image: linear-gradient(120deg, orange, blue);
+    border-radius: 60px 35px 40px 80px;
+    padding: 9%;
+    margin-top: 20%;
+    transition: 0.50s;
+    top: 50;
+    left: 50;
+    position: absolute;
+    transform: translate(-50, -50);
+    
+}

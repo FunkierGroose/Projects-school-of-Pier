@@ -1,0 +1,49 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    background-color: lightslategray;
+    text-align: center;
+    color: antiquewhite;   
+    margin: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+}
+
+h1{
+    background-image: linear-gradient(120deg, orange, blue);
+    border-radius: 20px 40px 60px 80px;
+    border-style: hidden;
+    padding: 5%;
+    margin-top: 12%;
+    transition: 0.50s;
+}
+
+.box-scelta{
+    background-image: linear-gradient(120deg, orange, blue);
+    border-radius: 60px 35px 40px 80px;
+    padding: 9%;
+    margin-top: 7%;
+    transition: 0.50s;
+}
+
+b{
+    background-color: transparent;
+    margin-top: 10%;
+    
+}
+
+input[type=submit]{
+    background-color: transparent;
+    
+    border-radius: 20px 40px 60px 80px;
+    background-color: transparent;
+    padding: 3%;
+    color:white;
+    cursor: pointer;
+   
+}
+input[type=text]:focus{
+    width: 120px;
+}
+
+
