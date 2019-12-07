@@ -1,0 +1,17 @@
+.box-result{
+    background: rgba(7, 77, 85, 0.94);
+    border-radius: 80px 40px 80px 40px;
+    border-style: hidden;
+    padding: 5%;
+    margin-top: 5%;
+    transition: 0.50s;
+}
+*{
+    font-family: 'Varela Round', sans-serif;
+    background: rgb(219, 212, 212);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: seashell;
+    margin: 10%;   
+}

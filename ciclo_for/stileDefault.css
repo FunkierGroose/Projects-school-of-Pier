@@ -1,0 +1,112 @@
+*{
+    font-family: 'Varela Round', sans-serif;
+    background: rgb(219, 212, 212);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: seashell;   
+    margin: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 0%;
+    font-weight: 5000 bold;
+}
+
+h1{
+    background: rgba(7, 77, 85, 0.94);
+    border-radius: 80px 40px 80px 40px;
+    border-style: hidden;
+    padding: 5%;
+    margin-top: 5%;
+    transition: 0.50s;
+    
+}
+h3{
+    color: rgba(7, 77, 85, 0.94);
+}
+form{
+    background: rgba(7, 77, 85, 0.94);
+    border-radius: 80px 40px 80px 40px;
+    border-style: hidden;
+    padding: 4%;
+    margin-top: 1%;
+    transition: 0.50s;
+    font-size: 20px;
+    margin: 0%;
+    color: #fff;
+}
+p{
+    background-color: transparent;
+    margin-top: 10%;
+    
+}
+input[type=submit]{
+    border-radius: 80px 40px 80px 40px;;
+    border: none;
+    background: linear-gradient(120deg,#90b9d4,#cbbad3,#99c2dd);
+    background-size: 200%;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    width: 50%;
+    height: 50px;
+    font-size: 24px;
+}
+
+input[type=text]{
+    font-size: 15px;
+  color: #333;
+  border: 2px solid rgb(125, 194, 125);
+  border-radius: 20px 20px 20px 20px;
+  width: 50%;
+  outline: none;
+  background: none;
+  padding: 0px;
+  height: 40px;
+  color: #fff;
+}
+::placeholder{color: #fff}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
